@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!--normalize-->
+     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+     <!--[if lt IE 9]-> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> 
+    <!-[endif]-->
+</head>
+<body>
+     <div id="container"><!--inicio-->
+     	
+     	<header><!--inicio H-->
+     	   <div id="logo">
+     	   	  <h1><a href="">Museu Nacional</a></h1>
+     	   </div> 	
+
+	     	<nav><!--Inicio-->
+	     		<ul>
+	     			<li>
+	     				<a href="">
+	     					Home
+	     				</a>
+	     			</li>
+	                <li>
+	                	<a href="">
+	                      Exposição
+	                   </a>
+	               </li>
+	                <li>
+	                	<a href="">
+	                	  Pesquisa	
+	                	</a>
+	                </li>
+	                <li>
+	                	<a href="">
+	                	  Acervos	
+	                	</a>
+	                </li>
+	                <li>
+	                	<a href="">
+	                	  Vídeos	
+	                	</a>
+	                </li>
+	                <li>
+	                	<a href="">
+	                	  Fotos	
+	                	</a>
+	                </li>
+	                <li>
+	                	<a href="">
+	                	  Contatos	
+	                	</a>
+	                </li>               
+	     		</ul>
+	     	</nav><!--Fim-->
+     	</header><!--Fim H-->
+       
+        <div id="principal"><!--inicio prin-->
+        	<div id="conteudo">
+        		 <section id="capa">
+        		 	<img src="img/museu.png">
+        		 </section>
+        		 
+        		 <section id="postagem">
+        		 	<article id="video">
+        		 		<h3>
+        		 		  Conheça o museu
+        		 	    </h3>
+        		 	    <iframe width="310" height="170" src="https://www.youtube.com/embed/2lZSfrnXYp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        		 	</article>
+
+        		 	<article id="mapa">
+        		 		<h3>
+        		 		   Mapa: encontre o museu
+        		 	    </h3>
+        		 	    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15425.24027917907!2d-40.878763030224626!3d-14.86393029999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7463bb262cea95b%3A0x388e67e23e0e1aa2!2sCasa%20Lima%20Materiais%20para%20Constru%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1637589783591!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        		 	</article>
+
+        		 	<article id="exposicoes">
+        		 		<h3>Exposições</h3>
+        		 	     <ul>
+        		 	     	<li>
+        		 	     		<a href="">
+        		 	     		 Assustadores insetos</a>
+        		 	     	</li>
+        		 	     	<li>
+        		 	     		<a href="">
+        		 	     		 Crânio de Luzia	
+        		 	     		</a>
+        		 	     	</li>
+        		 	     	<li>
+        		 	     		<a href="">
+        		 	     		 Preguiça gigante	
+        		 	     		</a>
+        		 	     	</li>
+        		 	     	<li>
+        		 	     		<a href="">
+        		 	     		  Brasil central plantas	
+        		 	     		</a>
+        		 	     	</li>
+        		 	     	<li>
+        		 	     		<a href="">
+        		 	     		  <strong>
+        		 	     		  	Veja todos(65)
+        		 	     		  </strong>
+        		 	     		</a>
+        		 	     	</li>
+        		 	     </ul>
+         		 	</article>
+
+         		 	<article id="historia">
+         		 		<h3>200 anos de histórias</h3>
+
+         		 		<p>
+         		 			Numa ponta que avançav sobre o mar, posteriormente conhecida como ponta do calabouço entre praias dePiaçaba e santa luzia, no centro hitórico do Rio de Janeiro, os portugueses construiram em 1603 a fortalezade santiago, origem do conjunto arquitetônico que hoje abriga o Museu.
+         		 		</p>
+         		 		<a href="">Ler mais</a>
+         		 	</article>
+        		 </section>
+        	</div>
+        	<aside><!--inicio-->
+        		<section id="depoimento">
+        			<img src="img/depoimento.png">
+        		</section>
+        		<section id="visita">
+        			<h4>Faça uma visita</h4>
+        		    <form>
+        		    	<fieldset>
+        		    		<legend>Selecione uma data</legend>
+        		    		<label for="data">
+        		    		   Data
+        		    	    </label>
+        		    		<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+        		    		<label for="qtd">
+        		    			Qtd. de pessoas
+        		    		</label>
+        		    		<input style="width: 30px;" type="text" id="qtd" value="1">
+        		    	</fieldset>
+                      <input class="botao" type="submit" value="verificar disponibilidade">
+        		    </form> 
+        		</section>
+
+        		<section id="galeria">
+        			<h4>Galeria de fotos</h4>
+        			<a href="">
+        				<img src="img/imagem1.jpg" height="93" width="93">
+        			</a>
+        			<a href="">
+        				<img src="img/imagem2.jpg" height="93" width="93">
+        			</a>
+        			<a href="">
+        				<img src="img/imagem3.jpg" height="93" width="93">
+        			</a>
+        			<a href="">
+        				<img src="img/imagem4.jpg" height="93" width="93">
+        			</a>
+
+        		</section>
+        	</aside><!--dim aside-->
+        		
+            <footer>
+            	<p>
+        		  <a href="">home</a>
+        		  <a href="">exposições</a>
+        		  <a href="">pesquisa</a>
+        		  <a href="">acervos</a>
+        		  <a href="">vídeos</a>
+        		  <a href="">fotos</a>
+        		  <a href="">contato</a>
+            	</p>
+            	2020<a href="https://www.linkedin.com/in/carlos-eduardo-freitas-amorim-13102719b" target="blank"> &copy;Carlos Eduardo Freitas Amorim</a>-Todos os direitos Reservados
+        	</footer>
+        </div><!--fim prin-->
+          	
+     </div><!--Fim container-->
+</body>
+</html>
